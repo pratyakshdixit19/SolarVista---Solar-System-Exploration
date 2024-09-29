@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar System Exploration</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Solar System Exploration</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#planets">Planets</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Discover the Wonders of Our Solar System</h2>
+                <p>Explore planets, moons, and more with our interactive 3D visualizer.</p>
+                <a href="index2.html" class="btn">Start Exploring</a>
+            </div>
+        </div>
+        <div class="hero-background"></div>
+    </section>
+
+    <section id="planets" class="planets-section">
+        <div class="container">
+            <h2>Our Planets</h2>
+            <div class="planets-grid">
+                <div class="planet-card">
+                    <img src="images/mercury.jpg" alt="Mercury">
+                    <h3>Mercury</h3>
+                    <p>Mercury, the smallest and closest planet to the Sun, completes an orbit in just 88 days. Its
+                        surface is marked by extreme temperatures and numerous craters, resembling Earth's Moon.</p>
+                    <a href="planet_details/mercury.html" class="btn">Learn More</a>
+                </div>
+                <div class="planet-card">
+                    <img src="images/venus.jpg" alt="Venus">
+                    <h3>Venus</h3>
+                    <p>Venus has a thick, toxic atmosphere and surface temperatures hot enough to melt lead.</p>
+                    <a href="planet_details/venus.html" class="btn">Learn More</a>
+                </div>
+                <div class="planet-card">
+                    <img src="images/earth.jpg" alt="Earth">
+                    <h3>Earth</h3>
+                    <p>Our home planet, rich with diverse life and ecosystems.</p>
+                    <a href="planet_details/earth.html" class="btn">Learn More</a>
+                </div>
+                <div class="planet-card">
+                    <img src="images/mars.jpg" alt="Mars">
+                    <h3>Mars</h3>
+                    <p>The Red Planet, home to the tallest volcano and deepest canyon in the solar system.</p>
+                    <a href="planet_details/mars.html" class="btn">Learn More</a>
+                </div>
+                <div class="planet-card">
+                    <img src="images/jupiter.jpg" alt="Mercury">
+                    <h3>Jupiter</h3>
+                    <p>Jupiter, the largest planet in our solar system, is known for its massive size, powerful storms,
+                        and iconic Great Red Spot. Its vibrant bands and numerous moons make it a dynamic and
+                        fascinating giant</p>
+                    <a href="planet_details/jupiter.html" class="btn">Learn More</a>
+                </div>
+                <div class="planet-card">
+                    <img src="images/saturn.jpg" alt="Mercury">
+                    <h3>Saturn</h3>
+                    <p>Saturn, the second-largest planet in our solar system, is famed for its stunning ring system and
+                        gaseous composition. Its beautiful rings and numerous moons make it a captivating giant.</p>
+                    <a href="planet_details/saturn.html" class="btn">Learn More</a>
+                </div>
+                <div class="planet-card">
+                    <img src="images/uranus.jpg" alt="Mercury">
+                    <h3>Uranus</h3>
+                    <p>Uranus, an ice giant, is known for its unique blue-green color and extreme axial tilt, causing it
+                        to rotate on its side. Its distinctive tilt and faint ring system make it a fascinating planet
+                        in the outer solar system.</p>
+                    <a href="planet_details/uranus.html" class="btn">Learn More</a>
+                </div>
+                <div class="planet-card">
+                    <img src="images/neptune.jpg" alt="Mercury">
+                    <h3>Neptune</h3>
+                    <p>Neptune, the farthest planet from the Sun, is distinguished by its deep blue color and strong
+                        winds, the fastest in the solar system. Its dynamic weather patterns and faint rings make it an
+                        intriguing ice giant.</p>
+                    <a href="planet_details/neptune.html" class="btn">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features-section">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <i class="fas fa-globe"></i>
+                    <h3>Interactive 3D Visualizer</h3>
+                    <a href="index2.html" class="btn-primary">Explore Now</a>
+                    <p>Navigate through the solar system with our state-of-the-art 3D visualizer.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-meteor"></i>
+                    <h3>In-depth Information</h3>
+                    <p>Get detailed information about each planet, moon, and other celestial bodies.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-vr-cardboard"></i>
+                    <h3>Virtual Reality Support</h3>
+                    <p>Experience the wonders of space through VR for an immersive adventure.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-rocket"></i>
+                    <h3>Latest Research</h3>
+                    <p>Stay updated with the latest research and discoveries in our solar system.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have questions or feedback? We'd love to hear from you!</p>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Contact us at <a href="mailto:support@solarsystemexploration.com">support@solarsystemexploration.com</a>
+            </p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>© 2024 Solar System Exploration. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
